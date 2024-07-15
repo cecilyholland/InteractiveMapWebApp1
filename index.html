@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTC Campus Interactive Map</title>
+    <link rel="stylesheet" href="C:\Users\signi\source\repos\InteractiveMapJavaScript\Css\Styles.css">
+    <link rel="stylesheet" href="C:\Users\signi\source\repos\InteractiveMapJavaScript\Scripts\leaflet.js" />
+</head>
+<body>
+    <header>
+        <h1>UTC Campus Interactive Map</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#map">UTC Map</a></li>
+            <li><a href="#update-form">Update Form</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="map">
+            <div id="mapid"></div>
+        </section>
+        <section id="update-form">
+            <h2>Update Form</h2>
+            <form>
+                <label for="area">Select Area:</label>
+                <select id="area" name="area">
+                    <option value="">Lot 1</option>
+                    <option value="">Lot 2</option>
+                    <option value="">Lot 9</option>
+                    <option value="">Lot 10</option>
+                    <option value="">Lot 12</option>
+                    <option value="">Lot 15</option>
+                    <option value="">Lot 16</option>
+                    <option value="">Lot 17</option>
+                    <option value="">Lot 18</option>
+                    <option value="">Lot 20</option>
+                    <option value="">Lot 21</option>
+                    <option value="">Lot 23</option>
+                    <option value="">Lot 24</option>
+                    <option value="">Lot 26 + 26 additional</option>
+                    <option value="">Lot 30</option>
+                    <option value="">Garage 31</option>
+                    <option value="">Lot 32</option>
+                    <option value="">Lot 33</option>
+                    <option value="">Lot 34</option>
+                    <option value="">Lot 35</option>
+                    <option value="">Lot 36 Lower</option>
+                    <option value="">Lot 36 Upper</option>
+                    <option value="">Lot 37</option>
+                    <option value="">Lot 38</option>
+                    <option value="">Lot 39</option>
+                    <option value="">Lot 40</option>
+                    <option value="">Lot 42</option>
+                    <option value="">Lot 45</option>
+                    <option value="">Lot 46</option>
+                    <option value="">Lot 48</option>
+                    <option value="">Lot 49</option>
+                    <option value="">Garage 50</option>
+                    <option value="">Lot 51</option>
+                    <option value="">Lot 52</option>
+                    <option value="">Lot 53</option>
+                    <option value="">Lot 54</option>
+                    <option value="">Lot 55</option>
+                    <option value="">Lot 56</option>
+                    <option value="">Lot 57</option>
+                    <option value="">Lot 59 G</option>
+                    <option value="">Lot 59 R</option>
+                    <option value="">Lot 61 G</option>
+                    <option value="">Lot 61 R</option>
+                    <option value="">Lot 62</option>
+                    <option value="">Lot 65</option>
+                    <option value="">UTC Parking Garage</option>
+                    <option value="">Mckenzie Arena</option>
+                    <option value="">ARC</option>
+                    <option value="">Maclellan Gym</option>
+                    <option value="">University Center</option>
+                    <option value="">Holt Hall</option>
+                    <option value="">Grote Hall</option>
+                    <option value="">Military Science</option>
+                    <option value="">Lawson Center</option>
+                    <option value="">Davenport Hall</option>
+                    <option value="">Alumni Affairs</option>
+                    <option value="">Development Office</option>
+                    <option value="">Derthick Lecture Hall</option>
+                    <option value="">Brock Hall</option>
+                    <option value="">Lupton Hall</option>
+                    <option value="">Guerry Center</option>
+                    <option value="">Bretske Hall</option>
+                    <option value="">EMCS Building</option>
+                    <option value="">Challenger Stem Learning Center</option>
+                    <option value="">Collins Street Anex</option>
+                    <option value="">Administrative Building</option>
+                    <option value="">Fine Arts Center</option>
+                    <option value="">Cadek Hall</option>
+                    <option value="">801 Mccallie Building</option>
+                    <option value="">Docotrs Building</option>
+                    <option value="">UTC Human Resources</option>
+                    <option value="">Stagmaier Hall</option>
+                    <option value="">Pfeiffer Hall</option>
+                    <option value="">Hunter Hall</option>
+                    <option value="">Patten Chapel</option>
+                    <option value="">Hooper Hall</option>
+                    <option value="">Race Hall</option>
+                    <option value="">Founders Hall</option>
+                    <option value="">Fletcher Hall</option>
+                    <option value="">Frist Hall</option>
+                    <option value="">Metropolitan Building</option>
+                    <option value="">Mapp Building</option>
+                    <!-- Add more areas as needed -->
+                </select>
+
+                <label for="status">Status:</label>
+                <select id="status" name="status">
+                    <option value="serviced">Fully Serviced</option>
+                    <option value="needs-attention">Service waxing</option>
+                    <option value="needs-attention">No Service</option>
+                </select>
+
+                <label for="notes">Notes:</label>
+                <textarea id="notes" name="notes"></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 University of Tennessee at Chattanooga</p>
+    </footer>
+
+    <script src="C:\Users\signi\source\repos\InteractiveMapJavaScript\Scripts\leaflet.js"></script>
+    <script src="C:\Users\signi\source\repos\InteractiveMapJavaScript\Scripts\leaflet.js"></script>
+</body>
+</html>

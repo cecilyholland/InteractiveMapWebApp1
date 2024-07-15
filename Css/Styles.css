@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+    header h1 {
+        font-family: 'Brush Script MT', cursive;
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+/* Navigation Styles */
+nav {
+    background-color: #444;
+    padding: 1em;
+}
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+        nav ul li {
+            margin: 0 1em;
+        }
+
+            nav ul li a {
+                text-decoration: none;
+                color: #f0f0f0;
+                font-family: 'Courier New', Courier, monospace;
+                transition: color 0.3s;
+            }
+
+                nav ul li a:hover {
+                    color: #ff6347;
+                }
+
+/* Main Content Styles */
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+#map {
+    margin-bottom: 2em;
+}
+
+#mapid {
+    height: 500px;
+    width: 100%;
+    border: 2px solid #555;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #2a2a2a;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+    form label {
+        margin-top: 1em;
+        font-family: 'Brush Script MT', cursive;
+        font-size: 1.2em;
+    }
+
+    form select, form textarea, form button {
+        margin-top: 0.5em;
+        padding: 0.5em;
+        border: 1px solid #555;
+        border-radius: 5px;
+        background-color: #444;
+        color: #f0f0f0;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    form button {
+        background-color: #ff6347;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        form button:hover {
+            background-color: #ff4500;
+        }
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.5);
+}
