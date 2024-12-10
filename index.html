@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UTC Campus Interactive Map</title>
-    <link rel="stylesheet" href="C:\Users\signi\source\repos\InteractiveMapJavaScript\Css\Styles.css">
-    <link rel="stylesheet" href="C:\Users\signi\source\repos\InteractiveMapJavaScript\Scripts\leaflet.js" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        #mapid {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -116,10 +121,12 @@
                     <option value="serviced">Fully Serviced</option>
                     <option value="needs-attention">Service waxing</option>
                     <option value="needs-attention">No Service</option>
+                    <!-- Add more statuses as needed -->
                 </select>
-
+                <!--This is the section where the notes are entered  -->
                 <label for="notes">Notes:</label>
                 <textarea id="notes" name="notes"></textarea>
+
 
                 <button type="submit">Submit</button>
             </form>
@@ -128,8 +135,7 @@
     <footer>
         <p>&copy; 2024 University of Tennessee at Chattanooga</p>
     </footer>
-
-    <script src="C:\Users\signi\source\repos\InteractiveMapJavaScript\Scripts\leaflet.js"></script>
-    <script src="C:\Users\signi\source\repos\InteractiveMapJavaScript\Scripts\leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="Scripts/app.js"></script>
 </body>
 </html>
